@@ -91,6 +91,9 @@
 #if __has_include("epd/GxEPD2_213_M21.h")
 #include "epd/GxEPD2_213_M21.h"
 #endif
+#if __has_include("epd/GxEPD2_213_CZ04.h")
+#include "epd/GxEPD2_213_CZ04.h"
+#endif
 #if __has_include("epd/GxEPD2_213_T5D.h")
 #include "epd/GxEPD2_213_T5D.h"
 #endif

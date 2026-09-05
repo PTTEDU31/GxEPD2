@@ -29,6 +29,7 @@
 #define GxEPD2_213_B74_IS_BW true
 #define GxEPD2_213_flex_IS_BW true
 #define GxEPD2_213_M21_IS_BW true
+#define GxEPD2_213_CZ04_IS_BW true
 #define GxEPD2_213_T5D_IS_BW true
 #define GxEPD2_213_BN_IS_BW true
 #define GxEPD2_213_GDEY0213B74_IS_BW true

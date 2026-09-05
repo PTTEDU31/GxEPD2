@@ -49,6 +49,7 @@ class GxEPD2
       GDEM0213B74,
       GDEW0213I5F, Waveshare_2_13_flex = GDEW0213I5F,
       GDEW0213M21,
+      WT0213CZ04,
       GDEW0213T5D,
       DEPG0213BN,
       GDEY0213B74,
