@@ -294,7 +294,12 @@ void GxEPD2_213_CZ04::_InitFull()
 
 void GxEPD2_213_CZ04::_InitDisplay()
 {
-    if (_hibernating) _reset();
+    // The vendor driver resets before every update after power-off.
+    // Keep the controller state intact while assembling paged transfers.
+    if (!_power_is_on)
+    {
+        _reset();
+    }
 
     _writeCommand(0x01);
     _writeData(0x07);
@@ -371,5 +376,4 @@ void GxEPD2_213_CZ04::_PowerOff()
     _power_is_on = false;
     _using_partial_mode = false;
 }
-
 
